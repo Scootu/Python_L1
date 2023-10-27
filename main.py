@@ -50,3 +50,17 @@ print(alphabets)
 # set literal
 vowels = {'a', 'e', 'i' , 'o', 'u'} 
 print(vowels) # h 
+
+# Explicite type conversion 
+
+num_string = '12' 
+new_number = int(num_string) 
+print('converting string 12 to int ',new_number)
+
+#Print with format like c 
+print('the first number {} the second number {}'.format(num1,complex(num3))) 
+
+print("it's your turn to entre a number")
+x = int(input('x? ')) 
+print('Ouh! you enter a {}'.format(type(x))) 
+
