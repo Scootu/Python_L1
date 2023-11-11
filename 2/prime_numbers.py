@@ -34,4 +34,3 @@ while i < list_len:
 
 print("List of prime numbers:", prime_list)
         
-print(f'{prime_list}') 
